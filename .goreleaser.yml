@@ -4,7 +4,6 @@ builds:
   - main: cmd/undocker/main.go
     binary: undocker
     goos:
-      - windows
       - darwin
       - linux
     goarch:
